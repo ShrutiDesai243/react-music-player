@@ -1,20 +1,84 @@
-# React + Vite
+# React Music Player
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A music player web application built with React.js, JavaScript, HTML, and CSS. This project explores interactive audio playback, song navigation, and state management using React Hooks.
 
-Currently, two official plugins are available:
+**Project status:** Work in progress
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features implemented so far
 
-## React Compiler
+- Play and pause music
+- Navigate to the previous or next track
+- Automatically play the next song
+- Shuffle playback
+- Search songs
+- Filter favorite songs
+- Manage the playback queue
+- Track playback progress
+- Control volume
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- React Hooks (`useState` and `useRef`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
 
+### Prerequisites
 
+- Node.js
+- npm
 
+### Installation
 
+Clone this repository:
+
+```bash
+git clone https://github.com/ShrutiDesai243/react-music-player.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd react-music-player
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+*Note: These commands assume the project uses the standard Vite scripts. Check `package.json` and adjust the instructions if your setup differs.*
+
+## What I Learned
+
+- Managing component state with React Hooks
+- Handling audio playback and user interactions
+- Implementing search and filtering functionality
+- Building interactive UI components
+- Organizing a React application
+
+## Future Improvements
+
+- Complete and test the application
+- Improve responsive design and accessibility
+- Add screenshots and a live demo
+- Refine the user interface and handle playback edge cases
+
+## Author
+
+Shruti Desai
+
+GitHub: https://github.com/ShrutiDesai243
